@@ -3,15 +3,15 @@
           }
           .name {
             font-weight: bold;
-            color: #217ac0;
+            color: #fcb3d7;
             font-size: 120%;
           }
           h4 {
             margin: 10px 0 -8px 0;
-            background: #217ac0;
+            background: #c0217b;
             color: white;
             padding: 2px 6px;
-            border: 1px solid #cee9f9;
+            border: 1px solid #d275b9;
             border-radius: 4px;
           }
           .attributes {
