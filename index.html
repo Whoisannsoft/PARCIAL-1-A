@@ -3,11 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>Document</title>
 </head>
 <body>
-    <label>
-    
-    </label>
+    <template id="tarjet">
+        <details>
+          <summary>
+            <code class="name">
+              &lt;<slot name="element-name">NEED NAME</slot>&gt;
+            </code>
+            <span class="desc"><slot name="description">NEED DESCRIPTION</slot></span>
+          </summary>
+          <div class="attributes">
+            <h4>Attributes</h4>
+            <slot name="attributes"><p>None</p></slot>
+          </div>
+        </details>
+        <hr />
+      </template>
 </body>
 </html>
